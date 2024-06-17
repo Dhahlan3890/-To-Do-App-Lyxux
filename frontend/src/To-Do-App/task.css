@@ -1,0 +1,128 @@
+
+  .home, .Home {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 2%;
+  }
+
+  .Home{
+    padding: 60px;
+  }
+  
+  .home .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .home h1, .Home h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .home form input {
+    width: 70%;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .home form button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .home form button:hover {
+    background: #0056b3;
+  }
+  
+  .home ul {
+    list-style: none;
+  }
+  
+  .home li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s;
+  }
+
+  .tasklist{
+    justify-content: space-between;
+  }
+  
+  .home li:last-child {
+    border-bottom: none;
+  }
+  
+  .home li:hover {
+    background: #f9f9f9;
+  }
+  
+  .home li span {
+    flex: 1;
+    margin-right: 10px;
+    word-wrap: break-word;
+  }
+  
+  .home .completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .home button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    margin-left: 5px;
+    transition: color 0.3s;
+  }
+  
+  .home button:hover {
+    color: #0056b3;
+  }
+  
+  @media (max-width: 500px) {
+    .home .container {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    .home form {
+      flex-direction: column;
+    }
+  
+    .home form input,
+    .home form button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .home form button {
+      border-radius: 5px;
+    }
+  } 
