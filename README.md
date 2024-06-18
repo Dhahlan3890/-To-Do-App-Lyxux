@@ -32,7 +32,7 @@ A simple To-Do List application with Django backend and React frontend.
    ```bash
    python manage.py runserver
 
-## Frontend
+### Frontend
 
 1. Navigate to the frontend directory and install dependencies:
 
@@ -47,6 +47,9 @@ A simple To-Do List application with Django backend and React frontend.
 
 ## Features
 
+* HomePage
+* LoginPage
+* SignupPage
 * Add new tasks
 * Edit existing tasks
 * Delete tasks
